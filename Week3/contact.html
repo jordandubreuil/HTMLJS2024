@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>The Town of South Park</title>
+        <title>The Town of South Park - Contact South Park</title>
         <meta charset="UTF-8">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,18 +19,33 @@
             <!--Navgation Area-->
             <div id="Nav">
                 <ul>
-                    <li class="nav-list"><a href="#" >Home</a></li>
+                    <li class="nav-list"><a href="index.html" >Home</a></li>
                     <li class="nav-list"><a href="about.html" >About South Park</a></li>
                     <li class="nav-list"><a href="pictures.html" >Pictures of South Park</a></li>
-                    <li class="nav-list"><a href="contact.html" >Contact</a></li>
+                    <li class="nav-list"><a href="#" >Contact</a></li>
                 </ul>
             </div>
             <!--Content Area-->
             <div id="Content">
                 <!--Content goes here!-->
-                <h2 id="section-header">Welcome to the town of South Park's Website</h2>
-                <p class="section-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, delectus laborum? Non doloremque vel aliquid expedita qui mollitia distinctio, omnis nesciunt eligendi provident adipisci nam quos, ex maxime delectus eius. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim repellat quam beatae atque. Laborum, odit mollitia! Distinctio reiciendis dolore, dolor alias est sapiente iure saepe necessitatibus. Impedit ipsam hic blanditiis?</p>
-                <img  src="../Week2/images/southpark.jpg" alt="Image of South Park" width="200">
+                <h2 id="section-header">Contact Southpark Here</h2>
+                <p class="section-text" style="width: 100%;">Interested in the town of South Park Message us here:</p>
+                <br> 
+                <form action="#" method="get" id="contact-form">
+                    <label for="name">Enter your name:</label>
+                    <br>
+                    <input type="text" placeholder="Enter name..." name="name">
+                    <br>
+                    <label for="email">Enter your email:</label>
+                    <br>
+                    <input type="email" placeholder="Enter email..." name="email">
+                    <br>
+                    <label for="message">Enter your message here:"</label>
+                    <br>
+                    <textarea name="message" id="message" cols="50" rows="10" style="resize: none;" placeholder="Enter your message here..."></textarea>
+                    <br>
+                    <input type="submit" value="Send Message">
+                </form>
             </div>
             <div id="Footer">
                 <p>&copy; 2024 HTML/JavaScript Class and South Park the Town</p>
